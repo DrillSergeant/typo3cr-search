@@ -50,7 +50,7 @@ class IndexingHelper implements ProtectedContextAwareInterface
 
         $currentPath = '';
         $pathPrefixes = [];
-        if ($path{0} === '/') {
+        if ($path[0] === '/') {
             $currentPath = '/';
             $pathPrefixes[] = $currentPath;
         }
